@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300&family=Russo+One&display=swap');
+
+div{
+  overflow-y: auto;
+  height: 100%;
+}
+section
+{
+  background-color: rgba(0, 0, 0, 0.178);
+  color: white;
+}
+
+h1{
+  font-family: 'Anton';
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size:50px;
+}
+.titles{
+  font-family: 'Anton';
+  margin-top: 30px;
+  margin-left: 60px;
+  font-size: 30px;
+}
+p{
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+  line-height: normal;
+  text-align: justify;
+}
+
+

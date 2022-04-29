@@ -1,0 +1,27 @@
+
+  <div @fade>
+    <h1>DONATION</h1>
+    <br>
+    <h3>Check the following accounts for donations: </h3>
+    <div class="acc_donate">
+      <div class="container">
+          <table class="table table">
+            <thead >
+              <tr>
+                <th scope="col" >Account</th>
+                <th scope="col">Account Number</th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr  *ngFor="let accs of accounts">
+                <th>{{accs.account}}</th>
+                <td>{{accs.accnum}}</td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+    </div>
+
+  </div>
+

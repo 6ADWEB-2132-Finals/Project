@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.342)), url("assets/images/war.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+}

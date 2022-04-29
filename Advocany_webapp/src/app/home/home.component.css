@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300&family=Russo+One&display=swap');
+.container{
+display: flex;
+padding: 15px;
+}
+.container div{
+  display: flex;
+  padding-top: 60px;
+  }
+.box1{
+  flex: 2;
+}
+.box2{
+  flex:3;
+}
+h1{
+  font-size: 500%;
+  color: rgb(255, 255, 255);
+  font-family: 'Anton';
+}
+h2{
+  font-size: 250%;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 100%;
+}
